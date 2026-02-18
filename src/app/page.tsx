@@ -235,7 +235,7 @@ export default function Home() {
             icon={<TargetIcon />}
             label="Goal Speed (mm:ss)"
             type="text"
-            inputMode="numeric"
+            inputMode="text"
             value={goal}
             placeholder="3:45"
             onChange={(v) => {
@@ -301,7 +301,7 @@ export default function Home() {
                 icon={<ClockIcon />}
                 label="Current Period Avg (mm:ss)"
                 type="text"
-                inputMode="numeric"
+                inputMode="text"
                 value={currentAvg}
                 placeholder="4:10"
                 onChange={(v) => {
